@@ -19,7 +19,7 @@
 
     <!-- URLs on this page have a en-us as localization since having them not have a fixed locale results in the page having the language used by the user, 
         which may be a different language than the app is using. This was quite confusing to see and was not intuitive.-->
-    <local:ControlExample HeaderText="A simple WebView2 " HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
+    <local:ControlExample HeaderText="A simple WebView2" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
         <local:ControlExample.Example>
             <Grid>
                 <Grid.RowDefinitions>
@@ -35,7 +35,7 @@
 
         <local:ControlExample.Xaml>
             <x:String xml:space="preserve">
-&lt;controls:WebView2 x:Name="MyWebView2" Source="https://microsoft.github.io/microsoft-ui-xaml/" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" MinHeight="200" MinWidth="200"/&gt;
+               <controls:WebView2 x:Name="MyWebView2" Source="https://microsoft.github.io/microsoft-ui-xaml/" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" MinHeight="200" MinWidth="200"/>
             </x:String>
         </local:ControlExample.Xaml>
     </local:ControlExample>
